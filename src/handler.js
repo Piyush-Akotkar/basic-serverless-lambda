@@ -5,6 +5,7 @@ module.exports.getUserDetails = (event) => {
   const obj = {
     name: "Piyush",
     age: 27,
+    location: "Pune",
     randomInt: randomNumber,
   };
   return JSON.stringify(obj);

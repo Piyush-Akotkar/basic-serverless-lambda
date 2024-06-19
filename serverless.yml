@@ -1,0 +1,10 @@
+service: basic-serverless-lambda
+provider:
+  name: aws
+  runtime: nodejs18.x
+  stage: dev
+  region: ap-south-1
+
+functions:
+  getUser:
+    handler: src/handler.getUserDetails

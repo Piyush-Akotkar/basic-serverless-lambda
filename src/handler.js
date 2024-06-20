@@ -7,6 +7,7 @@ module.exports.getUserDetails = (event) => {
     age: 27,
     location: "Pune",
     randomInt: randomNumber,
+    status: true,
   };
   return JSON.stringify(obj);
 };
